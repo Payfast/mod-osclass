@@ -1,3 +1,6 @@
+<!--Copyright (c) 2008 PayFast (Pty) Ltd
+You (being anyone who is not PayFast (Pty) Ltd) may download and use this plugin / code in your own website in conjunction with a registered and active PayFast account. If your PayFast account is terminated for any reason, you may not use this plugin / code or part thereof.
+Except as expressly indicated in this licence, you may not use, copy, modify or distribute this plugin / code or part thereof in any way.-->
 <h2 class="render-title separate-top"><?php _e('PayFast settings', 'payment_pro'); ?> <span><a href="javascript:void(0);" onclick="$('#dialog-payfast').dialog('open');" ><?php _e('help', 'payment_pro'); ?></a></span> <span style="font-size: 0.5em" ><a href="javascript:void(0);" onclick="$('.payfast').toggle();" ><?php _e('Show options', 'payment_pro'); ?></a></span></h2>
 <div class="form-row payfast hide">
     <div class="form-label"><?php _e('Enable PayFast'); ?></div>

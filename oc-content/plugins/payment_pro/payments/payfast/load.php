@@ -1,4 +1,10 @@
 <?php
+/**
+ * Copyright (c) 2008 PayFast (Pty) Ltd
+ * You (being anyone who is not PayFast (Pty) Ltd) may download and use this plugin / code in your own website in conjunction with a registered and active PayFast account. If your PayFast account is terminated for any reason, you may not use this plugin / code or part thereof.
+ * Except as expressly indicated in this licence, you may not use, copy, modify or distribute this plugin / code or part thereof in any way.
+ */
+
 osc_add_route( 'payfast-return', 'payment/payfast-return/(.+)', 'payment/payfast-return/{extra}', PAYMENT_PRO_PLUGIN_FOLDER . 'payments/payfast/return.php' );
 osc_add_route( 'payfast-cancel', 'payment/payfast-cancel/(.+)', 'payment/payfast-cancel/{extra}', PAYMENT_PRO_PLUGIN_FOLDER . 'payments/payfast/cancel.php' );
 osc_add_route( 'payfast-notify', 'payment/payfast-notify/(.+)', 'payment/payfast-notify/{extra}', PAYMENT_PRO_PLUGIN_FOLDER . 'payments/payfast/callback.php' );
